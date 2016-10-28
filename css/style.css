@@ -1,7 +1,79 @@
+*{
+  font-family: 'PT Serif', serif;
+  }
+
+.fa-comments-o{
+  font-size: 50px;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background-color: #6fbbb7;
+  border-radius: 100%;
+  z-index: 100;
+}
+
+ul{
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 16px;
+}
+
+li{
+  display: inline;
+}
+
+.navbar{
+  height: 101px;
+  background-color: #39474e;
+  padding-top: 17px;
+  margin-bottom: 0px;
+}
+
+.navbarrow{
+  margin-left: 70px;
+  margin-right: 80px;
+}
+
+.navbarleft li a{
+  text-decoration: none;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  padding: 15px;
+}
+
+.navbarright{
+  text-align: right;
+  padding: 15px;
+}
+
+.navbarright li a{
+  text-decoration: none;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #838f95;
+  padding: 10px;
+}
+
+.btn-default{
+  background-color: #6fbbb7;
+  border-color: #6fbbb7;
+  color: white;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .hero{
   background: url(../images/heroback.jpg) no-repeat center left;
   background-size: cover;
   height: 600px;
+  margin-top: 0px;
 }
 
 .employershero{
