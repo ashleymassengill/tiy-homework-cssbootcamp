@@ -1,0 +1,10 @@
+.hero{
+  background: url(../images/heroback.jpg) no-repeat center left;
+  background-size: cover;
+  height: 600px;
+}
+
+.employershero{
+  background: url(../images/employersback.jpg) no-repeat bottom left;
+  background-size: cover;
+}
