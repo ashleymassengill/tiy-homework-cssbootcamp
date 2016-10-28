@@ -23,16 +23,22 @@ li{
   display: inline;
 }
 
+h1{
+  color: white;
+  font-size: 60px;
+}
+
 .navbar{
   height: 101px;
   background-color: #39474e;
   padding-top: 17px;
   margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 .navbarrow{
-  margin-left: 70px;
-  margin-right: 80px;
+  margin-left: 60px;
+  margin-right: 100px;
 }
 
 .navbarleft li a{
@@ -74,6 +80,15 @@ li{
   background-size: cover;
   height: 600px;
   margin-top: 0px;
+}
+
+.herotext{
+  margin-left: 140px;
+  margin-top: 210px;
+}
+
+.herotext button{
+  font-size: 25px;
 }
 
 .employershero{
