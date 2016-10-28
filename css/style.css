@@ -91,6 +91,19 @@ h1{
   font-size: 25px;
 }
 
+.pressbox{
+  background-color: #eee;
+}
+
+.press{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.press img{
+
+}
+
 .employershero{
   background: url(../images/employersback.jpg) no-repeat bottom left;
   background-size: cover;
