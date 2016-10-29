@@ -259,6 +259,14 @@ button.form{
   margin-bottom: 15px;
 }
 
+.students>p>em{
+  font-family: 'helvetica neue', arial, sans-serif;
+}
+
+.studentbio>p>em{
+  font-family: 'helvetica neue', arial, sans-serif;
+}
+
 .studentbio h3{
   font-size: 22px;
   font-weight: 500;
