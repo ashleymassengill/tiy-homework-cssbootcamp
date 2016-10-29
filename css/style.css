@@ -28,7 +28,7 @@ h1{
   font-size: 60px;
 }
 
-h3{
+h2, h3{
   font-style: italic;
   font-weight: 600;
   color: #727d84;
@@ -113,12 +113,13 @@ h3{
   margin-bottom: 50px;
 }
 
-.about p{
+.about p, .coursesinset p{
   color: #39474e;
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   padding-right: 25px;
+  line-height: 25px;
 }
 
 .pageformblock{
@@ -163,11 +164,45 @@ button.form{
 }
 
 .coursesinset{
-  margin: 25px;
+  margin: 30px;
   margin-left: 325px;
   margin-right: 325px;
+  margin-bottom: 50px;
   text-align: center;
 }
+
+.courseicons img{
+  margin:20px;
+}
+
+.coursefrontend h4{
+  text-transform: uppercase;
+  color: rgb(206, 131, 45);
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.coursebackend h4{
+  text-transform: uppercase;
+  color: rgb(184, 88, 76);
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.coursemobile h4{
+  text-transform: uppercase;
+  color: rgb(211, 180, 43);
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.coursedesign h4{
+  text-transform: uppercase;
+  color: rgb(53, 160, 173);
+  font-weight: 600;
+  line-height: 25px;
+}
+
 
 .employershero{
   background: url(../images/employersback.jpg) no-repeat bottom left;
