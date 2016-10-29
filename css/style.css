@@ -315,3 +315,55 @@ button.companies{
 .footmain{
   background-color: #39474e;
 }
+
+.footdata{
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footdata>.right{
+  text-align: right;
+}
+
+.footdata h4{
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.footdata a{
+  font-family: 'helvetica neue', arial, sans-serif;
+  color: #838f95;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footdata>h4>a{
+  font-family: 'PT Serif', serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.footdata img{
+  margin-bottom: 15px;
+}
+
+.copyright, .privacy, .terms{
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 12px;
+  color: #838f95;
+}
+
+.privacy{
+  display: inline;
+  padding-right: 10px;
+  border-right: 1px solid #838f95;
+}
+
+.terms{
+  display: inline;
+  padding-left: 10px;
+}
