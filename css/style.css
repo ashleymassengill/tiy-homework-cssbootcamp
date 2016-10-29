@@ -34,6 +34,29 @@ h2, h3{
   color: #727d84;
 }
 
+h5{
+  font-size: 22px;
+  color: #6fbbb7;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+p{
+  color: #39474e;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+span{
+  color: #727d84;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
 .navbar{
   height: 101px;
   background-color: #39474e;
@@ -114,12 +137,7 @@ h2, h3{
 }
 
 .about p, .coursesinset p{
-  color: #39474e;
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
   padding-right: 25px;
-  line-height: 25px;
 }
 
 .pageformblock{
@@ -202,15 +220,49 @@ button.form{
 }
 
 .students{
-  margin: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .students h4{
   color: #727d84;
   text-transform: uppercase;
   font-size: 20px;
+}
+
+.students h3{
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.students p{
+  color: #727d84;
+}
+
+.students button{
+  font-size: 17px;
+  margin-top: 7px;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.studentbio{
+  text-align: center;
+}
+
+.studentpic{
+  border: 5px solid rgb(219, 130,12);
+  border-radius: 100%;
+  height: 110px;
+  width: 110px;
+  margin-bottom: 15px;
+}
+
+.studentbio h3{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 5px;
 }
 
 .employershero{
