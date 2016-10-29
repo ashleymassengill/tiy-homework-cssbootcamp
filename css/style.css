@@ -219,9 +219,9 @@ button.form{
   line-height: 25px;
 }
 
-.students{
-  margin-top: 50px;
-  margin-bottom: 50px;
+.studentall{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .students h4{
@@ -276,4 +276,42 @@ button.form{
 .employershero{
   background: url(../images/employersback.jpg) no-repeat bottom left;
   background-size: cover;
+  text-align: center;
+}
+
+.employers{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.employersintro{
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.employersintro h2, .employersintro p{
+  color: white;
+}
+
+button.companies{
+  font-size: 17px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.questions{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.questionsform{
+  min-height: 321px;
+}
+
+.footmain{
+  background-color: #39474e;
 }
