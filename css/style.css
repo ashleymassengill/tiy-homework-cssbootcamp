@@ -340,7 +340,7 @@ button.companies{
   font-weight: 300;
 }
 
-.footdata>h4>a{
+.footdata h4 a{
   font-family: 'PT Serif', serif;
   color: white;
   text-transform: uppercase;
