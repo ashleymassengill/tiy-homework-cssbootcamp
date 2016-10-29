@@ -28,6 +28,12 @@ h1{
   font-size: 60px;
 }
 
+h3{
+  font-style: italic;
+  font-weight: 600;
+  color: #727d84;
+}
+
 .navbar{
   height: 101px;
   background-color: #39474e;
@@ -99,10 +105,57 @@ h1{
 .press{
   width: 75%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
-.press img{
+.aboutrow{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.about p{
+  color: #39474e;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding-right: 25px;
+}
+
+.pageformblock{
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.pageformblock p, strong{
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+input{
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+form>.row>.col-md-6.left{
+  padding-right: 5px;
+}
+
+form>.row>.col-md-6.right{
+  padding-left: 5px;
+}
+
+button.form{
+  width: 100%;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-size: 16px;
 }
 
 .employershero{
