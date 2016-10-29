@@ -165,8 +165,6 @@ button.form{
 
 .coursesinset{
   margin: 30px;
-  margin-left: 325px;
-  margin-right: 325px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -203,6 +201,17 @@ button.form{
   line-height: 25px;
 }
 
+.students{
+  margin: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.students h4{
+  color: #727d84;
+  text-transform: uppercase;
+  font-size: 20px;
+}
 
 .employershero{
   background: url(../images/employersback.jpg) no-repeat bottom left;
