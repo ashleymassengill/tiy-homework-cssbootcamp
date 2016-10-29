@@ -132,11 +132,16 @@ h3{
   font-size: 14px;
   line-height: 25px;
 }
-
+/* all form formatting */
 input{
   margin: 5px;
   margin-left: 0px;
   margin-right: 0px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-size: 16px;
 }
 
 form>.row>.col-md-6.left{
@@ -153,9 +158,15 @@ button.form{
   margin-top: 5px;
 }
 
-::-webkit-input-placeholder {
-   font-style: italic;
-   font-size: 16px;
+.courses{
+  background-color: #eee;
+}
+
+.coursesinset{
+  margin: 25px;
+  margin-left: 325px;
+  margin-right: 325px;
+  text-align: center;
 }
 
 .employershero{

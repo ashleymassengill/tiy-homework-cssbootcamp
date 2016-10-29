@@ -106,12 +106,11 @@
       </div>
     </div>
 <!-- courses -->
-    <div class="container-fluid">
-      <div class="courses">
+    <div class="container-fluid courses">
+      <div class="coursesinset">
         <div class="row">
           <div class="col-md-12">
             <h2>Discover our courses</h2>
-            <br>
             <p>We offer learning programs that cover the core components of web development. Each course is designed to help people reach their learning and career goals.</p>
           </div>
           <div class="row">
@@ -278,31 +277,53 @@
           <div class="pageformblock">
             <p><strong>We'll call you</strong>
             <br>Enter your phone number below and we'll give you a ring in the next few days.</p>
+            <form>
+              <div class="row">
+                <div class="col-md-6 left">
+                  <input type="text" id="inputlg first_name" name="first_name" class="form-control half-width input-lg" placeholder="First Name"/>
+                </div>
+                <div class="col-md-6 right">
+                  <input type="text" id="inputlg last_name" name="last_name" class="form-control half-width input-lg" placeholder="Last Name"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input class="form-control input-lg" id="phoneNumber inputlg" name="phone" placeholder="Phone Number" type="text">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-default form">Gimme a ring</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <form class="dataform" action="index.html" method="post">
-            <!-- <label for="first_name">First Name</label> -->
-            <input aria-label="first_name" aria-required="true" class="form-control half-width" id="first_name" name="account[first_name]" placeholder="First Name" type="text">
-            <!-- <label for="last_name">Last Name</label> -->
-            <input aria-label="last_name" aria-required="true" class="form-control half-width right" id="last_name" name="account[last_name]" placeholder="Last Name" type="text">
-            <!-- <label for="phone_number">Phone Number</label> -->
-            <input aria-label="phonenumber" aria-required="false" class="form-control" id="phoneNumber" name="account[phone]" placeholder="Phone Number" type="text">
-            <button type="submit" class="btn btn-default">Gimme a ring</button>
-          </form>
         </div>
         <div class="col-md-3">
           <div class="pageformblock">
             <p><strong>We'll email you</strong>
             <br>Enter your email below and we'll be in touch shortly.</p>
+            <form>
+              <div class="row">
+                <div class="col-md-6 left">
+                  <input type="text" id="inputlg first_name" name="first_name" class="form-control half-width input-lg" placeholder="First Name"/>
+                </div>
+                <div class="col-md-6 right">
+                  <input type="text" id="inputlg last_name" name="last_name" class="form-control half-width input-lg" placeholder="Last Name"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input class="form-control input-lg" id="emailAddress inputlg" name="email" placeholder="Email Address" type="text">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-default form">Email me</button>
+                </div>
+              </div>
+            </form>
           </div>
-          <form class="dataform" action="index.html" method="post">
-            <!-- <label for="first_name">First Name</label> -->
-            <input aria-label="first_name" aria-required="true" class="form-control half-width" id="first_name" name="account[first_name]" placeholder="First Name" type="text">
-            <!-- <label for="last_name">Last Name</label> -->
-            <input aria-label="last_name" aria-required="true" class="form-control half-width right" id="last_name" name="account[last_name]" placeholder="Last Name" type="text">
-            <!-- <label for="email_address">Email Address</label> -->
-            <input aria-label="emailaddress" aria-required="true" class="form-control" id="emailAddress" name="account[email]" placeholder="Email Address" type="text">
-            <button type="submit" class="btn btn-default">Email me</button>
-          </form>
         </div>
       </div>
     </div>
