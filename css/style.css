@@ -142,7 +142,7 @@
 .about p, .coursesinset p{
   padding-right: 25px;
 }
-
+/* all form formatting */
 .pageformblock{
   background-color: #eee;
   border-radius: 10px;
@@ -154,7 +154,7 @@
   font-size: 14px;
   line-height: 25px;
 }
-/* all form formatting */
+
 input{
   margin: 5px;
   margin-left: 0px;
@@ -179,7 +179,7 @@ button.form{
   font-size: 16px;
   margin-top: 5px;
 }
-
+/*end form formatting*/
 .courses{
   background-color: #eee;
 }
@@ -191,7 +191,7 @@ button.form{
 }
 
 .courseicons img{
-  margin:20px;
+  margin: 20px;
 }
 
 .coursefrontend h4{
@@ -250,10 +250,6 @@ button.form{
   padding-right: 20px;
 }
 
-.studentbio{
-  text-align: center;
-}
-
 .studentpic{
   border: 5px solid rgb(219, 130,12);
   border-radius: 100%;
@@ -264,6 +260,10 @@ button.form{
 
 .students>p>em{
   font-family: 'helvetica neue', arial, sans-serif;
+}
+
+.studentbio{
+  text-align: center;
 }
 
 .studentbio>p>em{
