@@ -105,7 +105,7 @@
 }
 
 .hero{
-  background: url(../images/heroback.jpg) no-repeat center left;
+  background: url(../images/heroback.jpg) no-repeat center center;
   background-size: cover;
   height: 600px;
   margin-top: 0px;
@@ -117,12 +117,15 @@
 }
 
 .herotext button{
-  font-size: 25px;
+  font-size: 22px;
+}
+
+.glyphicon{
+  color: white;
 }
 
 .pressbox{
   background-color: #eee;
-  height: 113px;
 }
 
 .press{
@@ -366,4 +369,22 @@ button.companies{
 .terms{
   display: inline;
   padding-left: 10px;
+}
+
+@media(min-width: 0px) and (max-width: 478px){
+  .hero{
+    height: 300px;
+  }
+  .herotext h1{
+    font-size: 33px;
+  }
+}
+
+@media(min-width: 479px) and (max-width: 767px){
+  .hero{
+    height: 450px;
+  }
+  .herotext h1{
+    font-size: 33px;
+  }
 }
