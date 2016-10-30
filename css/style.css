@@ -2,6 +2,49 @@
   font-family: 'PT Serif', serif;
   }
 
+  ul{
+    font-family: 'helvetica neue', arial, sans-serif;
+    font-size: 16px;
+  }
+
+  li{
+    display: inline;
+  }
+
+  h1{
+    color: white;
+    font-size: 60px;
+  }
+
+  h2, h3{
+    font-style: italic;
+    font-weight: 600;
+    color: #727d84;
+  }
+
+  h5{
+    font-size: 22px;
+    color: #6fbbb7;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+
+  p{
+    color: #39474e;
+    font-family: 'helvetica neue', arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  span{
+    color: #727d84;
+    font-family: 'helvetica neue', arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
 .fa-comments-o{
   font-size: 50px;
   color: white;
@@ -12,49 +55,6 @@
   background-color: #6fbbb7;
   border-radius: 100%;
   z-index: 100;
-}
-
-ul{
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-size: 16px;
-}
-
-li{
-  display: inline;
-}
-
-h1{
-  color: white;
-  font-size: 60px;
-}
-
-h2, h3{
-  font-style: italic;
-  font-weight: 600;
-  color: #727d84;
-}
-
-h5{
-  font-size: 22px;
-  color: #6fbbb7;
-  font-weight: 700;
-  padding-top: 10px;
-}
-
-p{
-  color: #39474e;
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
-}
-
-span{
-  color: #727d84;
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 25px;
 }
 
 .navbar{
